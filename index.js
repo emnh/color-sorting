@@ -54,7 +54,7 @@ function main() {
   colormap[frontier[0][0] + ',' + frontier[0][1]] = colors[0];
 
   const neighbours = [];
-  const k = 1.0 + Math.floor(Math.random() * 5.0);
+  const k = 1.0 + Math.floor(Math.random() * 2.0);
 
   for (let x = -k; x <= k; x++) {
     for (let y = -k; y <= k; y++) {
